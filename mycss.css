@@ -182,8 +182,9 @@ body {
     border-style: solid;
 }
 
-.buttons small {
+.buttons figcaption {
     width: 150px;
+    font-size: 14px;
     text-align: center;
 }
 
@@ -243,7 +244,4 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.sign-up-form {
-    
 }
