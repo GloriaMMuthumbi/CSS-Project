@@ -8,16 +8,18 @@
     <title>Homepage</title>
 </head>
 <body>
-    <div class="container">
-        <div class="section hero"> <!-- top blue part-->
-            <nav class="navbar"> <!-- navigation bar-->
-                <a id="logo" href="index.html">Header Logo</a>
-                <ul class="nav-list">
-                    <li><a id="nav-item" href="otherpage.html">header link one</a></li>
-                    <li><a id="nav-item" href="otherpage.html">header link two</a></li>
-                    <li><a id="nav-item" href="otherpage.html">header link three</a></li>
-                </ul>
-            </nav>
+    <main class="container">
+        <section class="section hero"> <!-- top blue part-->
+            <header>
+                <nav class="navbar"> <!-- navigation bar-->
+                    <a id="logo" href="index.html">Header Logo</a>
+                    <ul class="nav-list">
+                        <li><a id="nav-item" href="otherpage.html">header link one</a></li>
+                        <li><a id="nav-item" href="otherpage.html">header link two</a></li>
+                        <li><a id="nav-item" href="otherpage.html">header link three</a></li>
+                    </ul>
+                </nav>
+            </header>
             <div class="container1">
                 <div id="text-div"> <!--text div-->
                     <p class="maintext">This website is awesome</p>
@@ -33,9 +35,9 @@
                 </div>
             </div>  
             <br>
-        </div>
+        </section>
 
-        <div class="section random-info"> <!--white part with boxes-->
+        <section class="section random-info"> <!--white part with boxes-->
             <p id="info-heading">Some random information.</p>
             <div class="container2">
                 <div class="buttons">
@@ -44,7 +46,7 @@
                 </div>
                 <div class="buttons">
                     <button class="info-button"></button>
-                    <small>this is some subtext under an illustration or image</small>
+                    <figcaption>this is some subtext under an illustration or image</figcaption>
                 </div>
                 <div class="buttons">
                     <button class="info-button"></button>
@@ -56,18 +58,18 @@
                 </div>
             </div>
             <br>
-        </div>
+        </section>
 
-        <div class="section quote-section"> <!--gray part with text-->
+        <section class="section quote-section"> <!--gray part with text-->
             <em>This is an inspiring quote, or testimonial from a customer. Maybe
                 it's just filling up space, or maybe people will actually read it. Who
                 knows? All I know is that it looks nice.
             </em>
             <br>
             <strong>-Thor</strong>
-        </div>
+        </section>
 
-        <div class="section call-to-action"> <!--call to action div-->
+        <section class="section call-to-action"> <!--call to action div-->
             <div class="bluebox">
                 <div class="actiontext">
                     <p>Call to action! It's time!</p>
@@ -77,13 +79,14 @@
                     <button>Sign up</button>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="section footer"> <!--copyright div-->
+    </main>
+
+        <footer class="section footer"> <!--copyright div-->
             <p>Copyright</p>
             <p>&copy;</p>
-        </div>
-    </div>
+        </footer>
 
 </body>
 </html>
